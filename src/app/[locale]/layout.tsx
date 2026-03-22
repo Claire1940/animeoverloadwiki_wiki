@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -22,18 +22,23 @@ export function generateStaticParams() {
 // 生成元数据
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const { locale } = await params
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wwe2k26.wiki'
-
-	// 获取 SEO 翻译
-	const t = await getTranslations('seo.home')
-
-	// 将 keywords 字符串分割为数组
-	const keywordsString = t('keywords')
-	const keywords = keywordsString.split(',').map(k => k.trim())
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://animeoverloadwiki.wiki'
+	const canonicalUrl = locale === 'en' ? siteUrl : `${siteUrl}/${locale}`
+	const heroImage = `${siteUrl}/images/hero.webp`
+	const title = 'Anime Overload Wiki - Codes, Units & Tier List'
+	const description =
+		'Anime Overload Wiki for codes, units, traits, raids, story, and beginner guides. Track active players, total visits, and key Roblox game info in one place.'
+	const keywords = [
+		'Anime Overload',
+		'Roblox',
+		'Anime Overload codes',
+		'Anime Overload units',
+		'Anime Overload tier list',
+	]
 
 	return {
-		title: t('title'),
-		description: t('description'),
+		title,
+		description,
 		keywords: keywords,
 		robots: {
 			index: true,
@@ -49,25 +54,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 		openGraph: {
 			type: 'website',
 			locale: locale,
-			url: locale === 'en' ? siteUrl : `${siteUrl}/${locale}`,
-			siteName: 'WWE 2K26 Wiki',
-			title: t('ogTitle'),
-			description: t('ogDescription'),
+			url: canonicalUrl,
+			siteName: 'Anime Overload Wiki',
+			title,
+			description,
 			images: [
 				{
-					url: `${siteUrl}/og-image.jpg`,
+					url: heroImage,
 					width: 1200,
 					height: 630,
-					alt: 'WWE 2K26 - Wrestling Simulation Game',
+					alt: 'Anime Overload Wiki hero image',
 				},
 			],
 		},
 		twitter: {
 			card: 'summary_large_image',
-			title: t('twitterTitle'),
-			description: t('twitterDescription'),
-			images: [`${siteUrl}/og-image.jpg`],
-			creator: '@WWEgames',
+			title,
+			description,
+			images: [heroImage],
+			creator: '@OfficialHiFun',
 		},
 		icons: {
 			icon: [

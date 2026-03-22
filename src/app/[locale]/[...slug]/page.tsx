@@ -21,6 +21,24 @@ interface PageProps {
   params: Promise<{ locale: string; slug: string[] }>
 }
 
+function normalizeBrandText(value: string): string {
+  return value
+    .replace(/WWE 2K26 Wiki/gi, 'Anime Overload Wiki')
+    .replace(/WWE 2K26/gi, 'Anime Overload')
+    .replace(/wwe2k26\.wiki/gi, 'animeoverloadwiki.wiki')
+}
+
+function ensureBrandSuffix(value: string): string {
+  return /Anime Overload Wiki/i.test(value) ? value : `${value} - Anime Overload Wiki`
+}
+
+function toAbsoluteUrl(siteUrl: string, url?: string): string | undefined {
+  if (!url) return undefined
+  if (/^https?:\/\//i.test(url)) return url
+  const normalizedPath = url.startsWith('/') ? url : `/${url}`
+  return `${siteUrl}${normalizedPath}`
+}
+
 export default async function UnifiedContentPage({ params }: PageProps) {
   const { locale, slug } = await params
 
@@ -205,7 +223,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params
   const contentType = slug[0]
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wwe2k26.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://animeoverloadwiki.wiki'
 
   if (!isValidContentType(contentType)) {
     return { title: 'Not Found' }
@@ -218,9 +236,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const t = await getTranslations(`pages.${contentType}`)
 
     try {
-      const title = t('metaTitle')
-      const description = t('metaDescription')
+      const title = ensureBrandSuffix(normalizeBrandText(t('metaTitle')))
+      const description = normalizeBrandText(t('metaDescription'))
       const path = `/${contentType}`
+      const canonicalUrl = `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`
+      const heroImage = `${siteUrl}/images/hero.webp`
 
       return {
         title,
@@ -229,7 +249,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         openGraph: {
           title,
           description,
-          url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+          url: canonicalUrl,
+          siteName: 'Anime Overload Wiki',
+          images: [heroImage],
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title,
+          description,
+          images: [heroImage],
         },
         robots: {
           index: true,
@@ -245,13 +273,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       }
     } catch {
       // 如果翻译不存在，使用默认值
-      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - WWE 2K26 Wiki`
+      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Anime Overload Wiki`
       const path = `/${contentType}`
+      const canonicalUrl = `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`
+      const defaultDescription = `Browse all ${contentType} content for Anime Overload Wiki`
+      const heroImage = `${siteUrl}/images/hero.webp`
 
       return {
         title: defaultTitle,
-        description: `Browse all ${contentType} content for WWE 2K26 Wiki`,
+        description: defaultDescription,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
+        openGraph: {
+          title: defaultTitle,
+          description: defaultDescription,
+          url: canonicalUrl,
+          siteName: 'Anime Overload Wiki',
+          images: [heroImage],
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: defaultTitle,
+          description: defaultDescription,
+          images: [heroImage],
+        },
         robots: {
           index: true,
           follow: true,
@@ -276,16 +320,27 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       )
 
       const fullPath = `/${slug.join('/')}`
+      const canonicalUrl = `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`
+      const imageUrl = toAbsoluteUrl(siteUrl, metadata.image) || `${siteUrl}/images/hero.webp`
+      const title = ensureBrandSuffix(normalizeBrandText(metadata.title))
+      const description = normalizeBrandText(metadata.description)
 
       return {
-        title: `${metadata.title} - WWE 2K26 Wiki`,
-        description: metadata.description,
+        title,
+        description,
         alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
         openGraph: {
-          title: metadata.title,
-          description: metadata.description,
-          images: metadata.image ? [metadata.image] : [],
-          url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+          title,
+          description,
+          images: [imageUrl],
+          url: canonicalUrl,
+          siteName: 'Anime Overload Wiki',
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title,
+          description,
+          images: [imageUrl],
         },
         robots: {
           index: true,
@@ -308,16 +363,27 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           )
 
           const fullPath = `/${slug.join('/')}`
+          const canonicalUrl = `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`
+          const imageUrl = toAbsoluteUrl(siteUrl, metadata.image) || `${siteUrl}/images/hero.webp`
+          const title = ensureBrandSuffix(normalizeBrandText(metadata.title))
+          const description = normalizeBrandText(metadata.description)
 
           return {
-            title: `${metadata.title} - WWE 2K26 Wiki`,
-            description: metadata.description,
+            title,
+            description,
             alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
             openGraph: {
-              title: metadata.title,
-              description: metadata.description,
-              images: metadata.image ? [metadata.image] : [],
-              url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+              title,
+              description,
+              images: [imageUrl],
+              url: canonicalUrl,
+              siteName: 'Anime Overload Wiki',
+            },
+            twitter: {
+              card: 'summary_large_image',
+              title,
+              description,
+              images: [imageUrl],
             },
             robots: {
               index: true,
