@@ -293,6 +293,11 @@ export default function HomePage() {
           >
             <div className="container mx-auto max-w-7xl">
               <div className="text-center mb-12">
+                <div className="inline-flex items-center px-3 py-1 rounded-full mb-4 border border-[hsl(var(--gold)/0.45)] bg-[hsl(var(--nav-theme)/0.08)]">
+                  <span className="text-xs uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+                    Module {index + 1}
+                  </span>
+                </div>
                 <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
                   {module.title}
                   <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />

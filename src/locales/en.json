@@ -420,44 +420,62 @@
       {
         "sectionId": "anime-overload-traits-guide",
         "title": "Anime Overload Wiki Traits Guide",
-        "subtitle": "Trait effects, reroll priorities, and role-based matching",
-        "intro": "Traits define damage ceilings and utility efficiency. A focused reroll plan saves resources and upgrades the right units faster.",
+        "subtitle": "Trait systems, key resources, and reroll value for practical roster growth",
+        "intro": "Traits are one of the biggest power systems in Anime Overload. They sit inside the same upgrade loop as stat rerolls and crafting, so they matter for both early efficiency and long-term hero optimization.",
+        "kpis": [
+          {
+            "label": "Core Upgrade Role",
+            "value": "Traits + Rerolls + Crafting"
+          },
+          {
+            "label": "Main Resources",
+            "value": "Trait Rerolls + Tickets"
+          },
+          {
+            "label": "Featured Chase Trait",
+            "value": "Overload (0.1%)"
+          },
+          {
+            "label": "Best Timing",
+            "value": "After Core Lineup Lock"
+          }
+        ],
         "columns": [
           {
-            "title": "High Priority Trait Targets",
+            "title": "Main Trait Resources",
             "items": [
-              "Main carry: maximize burst or sustained DPS traits.",
-              "Wave clear unit: prioritize AoE consistency.",
-              "Support slot: value control and team-impact traits.",
-              "Economy slot: secure stable farming value first."
+              "Trait Rerolls are a core progression currency for refining long-term units.",
+              "Reroll Trait Tickets should be saved for heroes with stable lineup value.",
+              "Launch rewards included 25 Trait Rerolls and 100 Trait Rerolls in separate drops.",
+              "Launch rewards also included 5 Reroll Trait Tickets for higher-value reroll decisions."
             ]
           },
           {
-            "title": "Reroll Management Rules",
+            "title": "Where Traits Fit in Progression",
             "items": [
-              "Reroll only on units that survive your next progression tier.",
-              "Spend bulk rerolls after code refreshes and events.",
-              "Keep practical high-roll traits instead of chasing perfect rolls every time.",
-              "Reserve tickets for carries with long-term relevance."
+              "Traits become most valuable once a hero earns a true lineup slot.",
+              "Traits pair naturally with summons, stat rerolls, and crafting upgrades.",
+              "Use trait investment to bridge from starter clears into stronger raid-ready builds.",
+              "Avoid deep reroll spending on short-term placeholder units."
             ]
           }
         ],
         "cards": [
           {
-            "title": "Trait Value by Role",
-            "description": "DPS units prioritize raw damage scaling, while support units gain more from utility uptime and control effects.",
+            "title": "What Traits Do",
+            "description": "Traits are part of the core hero-upgrade loop and work alongside stat rerolls and crafting to push units into stronger story, quest, and raid clears.",
             "tags": [
-              "DPS",
-              "Support",
-              "Utility"
+              "Story",
+              "Quests",
+              "Raids"
             ]
           },
           {
-            "title": "When to Stop Rerolling",
-            "description": "Stop once a unit reaches a strong practical roll that clears your current target content. Move resources to the next bottleneck.",
+            "title": "Featured Chase Trait",
+            "description": "Overload is already a standout chase trait in early Anime Overload coverage, with players highlighting it as a 0.1% roll on Ener (Lightning).",
             "tags": [
-              "Efficiency",
-              "Resource Control"
+              "Overload",
+              "Ener (Lightning)"
             ]
           }
         ]
@@ -465,73 +483,70 @@
       {
         "sectionId": "anime-overload-heroes",
         "title": "Anime Overload Wiki Heroes",
-        "subtitle": "Core unit roles and roster structure for stable clears",
-        "intro": "Heroes should be evaluated by role fit, map coverage, and upgrade efficiency rather than rarity alone.",
+        "subtitle": "Known roster, upgrade paths, and role examples for lineup planning",
+        "intro": "Heroes are the center of every lineup in Anime Overload. The public roster already shows a strong mix of base forms, upgraded forms, and utility-focused units that give this game real wiki depth from day one.",
         "kpis": [
           {
-            "label": "Core Team Size",
-            "value": "3-5 Main Units"
+            "label": "Roster Structure",
+            "value": "Base + Upgraded Forms"
           },
           {
-            "label": "Essential Roles",
-            "value": "Carry + AoE + Support"
+            "label": "Upgrade Visibility",
+            "value": "Multiple Clear Paths"
           },
           {
-            "label": "Progression Method",
-            "value": "Upgrade by Need"
+            "label": "Utility Layer",
+            "value": "Action-Based Skill Kits"
           },
           {
-            "label": "Roster Goal",
-            "value": "Flexible Sub Slots"
+            "label": "Stat Spotlight",
+            "value": "Bald Hero Growth Passive"
+          }
+        ],
+        "columns": [
+          {
+            "title": "Known Hero Roster",
+            "items": [
+              "Element, Crimson Queen, Crimson Queen (Dominant), Red Hair, Red Hair (Conqueror), Streliana (Stampede), Streliana (True Maiden).",
+              "Strongest Alien, Strongest Alien (Burst), Susono, Bald Hero, Bald Hero (Serious), Bald Hero (Super Serious), Devil Knight.",
+              "Devil Knight (Berserk), Devil Knight (Demonic), Ener, Ener (Lightning), Goju, Goju (Unlimited), Greye, and Greye (Frost)."
+            ]
+          },
+          {
+            "title": "Upgrade Paths",
+            "items": [
+              "Crimson Queen -> Crimson Queen (Dominant).",
+              "Red Hair -> Red Hair (Conqueror), and Streliana -> Streliana (True Maiden).",
+              "Strongest Alien -> Strongest Alien (Burst), and Ener -> Ener (Lightning).",
+              "Bald Hero -> Bald Hero (Serious) -> Bald Hero (Super Serious), plus Goju -> Goju (Unlimited), and Greye -> Greye (Frost)."
+            ]
           }
         ],
         "cards": [
           {
-            "title": "Strongest Alien (Burst)",
-            "description": "High-end damage carry for difficult waves and boss pressure.",
+            "title": "Utility Example: Inoomaki",
+            "description": "Inoomaki shows that the roster is not just raw DPS. His attacks inflict 1 of 3 Actions, and each Action has its own 20-second cooldown.",
             "tags": [
-              "Carry",
-              "Boss Damage"
+              "Utility",
+              "Actions",
+              "Cooldowns"
             ]
           },
           {
-            "title": "Susono",
-            "description": "Reliable endgame damage profile with strong map value.",
+            "title": "Stat Spotlight: Bald Hero",
+            "description": "Bald Hero starts with 560 Damage and 7.00 Speed. Against enemies he cannot one-shot, his base damage grows by 5% per attack up to 15%.",
             "tags": [
-              "Endgame",
-              "Sustain"
+              "560 Damage",
+              "7.00 Speed",
+              "+15% Max"
             ]
           },
           {
-            "title": "Ener (Lightning)",
-            "description": "Excellent wave pressure and useful burst windows.",
+            "title": "Roster Planning Rule",
+            "description": "Build around clear role coverage first, then upgrade into stronger forms along known progression paths instead of rebuilding your whole lineup each patch.",
             "tags": [
-              "AoE",
-              "Wave Control"
-            ]
-          },
-          {
-            "title": "Law (Death Surgeon)",
-            "description": "Support utility that improves team stability in high-pressure content.",
-            "tags": [
-              "Support",
-              "Utility"
-            ]
-          },
-          {
-            "title": "Escanor",
-            "description": "Economy-friendly option for smoother long farming sessions.",
-            "tags": [
-              "Economy",
-              "Farm"
-            ]
-          },
-          {
-            "title": "Killua",
-            "description": "Strong early value unit that keeps progression efficient before premium pulls.",
-            "tags": [
-              "Beginner Value",
-              "Epic"
+              "Role Coverage",
+              "Upgrade Paths"
             ]
           }
         ]
@@ -539,50 +554,78 @@
       {
         "sectionId": "anime-overload-progression-guide",
         "title": "Anime Overload Wiki Progression Guide",
-        "subtitle": "Move from launch setup to endgame loops with clear milestones",
-        "intro": "A stable progression route prevents wasted currency and keeps upgrades aligned with content difficulty.",
+        "subtitle": "Core resources, practical loop, and early route for faster account growth",
+        "intro": "Progression in Anime Overload is built around summoning heroes, learning the main currencies, clearing story content, and then moving into quests and raids with a stronger core team.",
+        "columns": [
+          {
+            "title": "Core Resources",
+            "items": [
+              "Gold for upgrades and short-cycle progression spending.",
+              "Crystal Shards and Crystals for summon and growth systems.",
+              "Trait Rerolls and Trait Tickets for long-term optimization.",
+              "Tokens for mode-linked progression value."
+            ]
+          },
+          {
+            "title": "Main Progression Loop",
+            "items": [
+              "Summon heroes and establish one stable carry plus support pieces.",
+              "Clear story or campaign content to build baseline resources.",
+              "Improve units through traits and other upgrade systems.",
+              "Push into quests and raids for stronger account growth."
+            ]
+          }
+        ],
+        "steps": [
+          "Secure a good Mythical or several solid Legendaries.",
+          "Build your first reliable clear trio before spreading upgrades.",
+          "Use current community routes to farm Susono from Legend Stage 3.",
+          "Transition into quests and raids once story clears are stable."
+        ],
         "timeline": [
           {
-            "date": "Stage 1",
-            "title": "Launch Setup",
-            "detail": "Redeem codes, secure one AoE core, and push early stages for baseline currency."
+            "date": "Step 1",
+            "title": "Summon Foundation",
+            "detail": "Open with summons and lock enough quality to clear early maps consistently."
           },
           {
-            "date": "Stage 2",
-            "title": "Roster Stabilization",
-            "detail": "Build a carry-AoE-support trio and stop over-investing in temporary units."
+            "date": "Step 2",
+            "title": "Story Progress",
+            "detail": "Use story clears to establish your base currency flow and upgrade pace."
           },
           {
-            "date": "Stage 3",
+            "date": "Step 3",
             "title": "Trait Optimization",
-            "detail": "Use rerolls on long-term units and lock practical high-value traits."
+            "detail": "Apply rerolls and tickets on heroes with long-term lineup value."
           },
           {
-            "date": "Stage 4",
-            "title": "Raid Transition",
-            "detail": "Start targeted raid clears for reward loops and endgame materials."
+            "date": "Step 4",
+            "title": "Quest and Raid Loop",
+            "detail": "Scale into quests and raids once core clears are stable."
           },
           {
-            "date": "Stage 5",
-            "title": "Dungeon + Evolution",
-            "detail": "Farm Pure Stars and evolve key units to secure late-game scaling."
+            "date": "Step 5",
+            "title": "Long-Run Account Growth",
+            "detail": "Convert mode rewards into a stronger evolving roster and cleaner clear speed."
           }
         ],
         "cards": [
           {
-            "title": "Resource Priority",
-            "description": "Spend on roster quality first, then trait upgrades, then broad collection targets.",
+            "title": "Fast Early Route",
+            "description": "One practical early-game route from current community guides is to secure a good Mythical or several solid Legendaries and then farm Susono from Legend Stage 3.",
             "tags": [
-              "Roster First",
-              "Trait Second"
+              "Mythical",
+              "Legendaries",
+              "Legend Stage 3"
             ]
           },
           {
-            "title": "Common Progression Leak",
-            "description": "Frequent rerolls on low-value units and too many unfinished upgrades slow progression dramatically.",
+            "title": "Free-to-Play Pace",
+            "description": "Anime Overload is free to play on PC and mobile. Paid bundles exist, but the main currencies are positioned as earnable through regular play.",
             "tags": [
-              "Avoid Waste",
-              "Finish Core"
+              "F2P",
+              "PC + Mobile",
+              "Earnable Currencies"
             ]
           }
         ]
@@ -590,37 +633,66 @@
       {
         "sectionId": "anime-overload-story",
         "title": "Anime Overload Wiki Story",
-        "subtitle": "World progression, stage routes, and practical drop focus",
-        "intro": "Story maps are the backbone of progression and your first reliable route for core upgrade resources.",
+        "subtitle": "Story mode role, reward value, and stage tracking priorities",
+        "intro": "Story is one of the main pillars of Anime Overload. It is the clearest mode for building early progress, learning the game flow, and collecting the items that support later upgrades.",
+        "kpis": [
+          {
+            "label": "Mode Role",
+            "value": "Core Content Pillar"
+          },
+          {
+            "label": "Early Value",
+            "value": "Progress + Team Foundation"
+          },
+          {
+            "label": "Confirmed Reward Links",
+            "value": "Shard + Pure Stars"
+          },
+          {
+            "label": "Main Tracking Focus",
+            "value": "Stages + Drops"
+          }
+        ],
         "steps": [
-          "Clear early worlds with one optimized AoE core.",
-          "Repeat high-efficiency stages for your current bottleneck resource.",
-          "Upgrade only the units that improve your next map clear threshold.",
-          "Rotate into raids once story clears are stable and fast."
+          "Track stage-by-stage clear progress and note bottlenecks.",
+          "Record reward drops tied to your next upgrade milestone.",
+          "Align story farming with heroes or materials your lineup needs.",
+          "Move into raids after story routing and team flow are stable."
         ],
         "cards": [
           {
-            "title": "World Overview",
-            "description": "Each world introduces heavier wave pressure and rewards stronger placement discipline.",
+            "title": "What Story Mode Is",
+            "description": "Story mode takes players through levels inspired by anime worlds from different shows and stands as one of the game's main content pillars alongside heroes and raids.",
             "tags": [
-              "Wave Scaling",
-              "Placement"
+              "Anime Worlds",
+              "Core Pillar"
             ]
           },
           {
-            "title": "Act Goals",
-            "description": "Prioritize consistent clears over risky speed routes when your roster is still forming.",
+            "title": "Why Story Matters",
+            "description": "Story is the cleanest place to build early clear progress, understand map flow, and establish the team foundation that later carries into quests and raids.",
             "tags": [
-              "Consistency",
-              "Farm Loop"
+              "Early Progress",
+              "Map Flow",
+              "Foundation"
             ]
           },
           {
-            "title": "Drop Routing",
-            "description": "Track which stages feed your next evolve requirement and keep a tight farming rotation.",
+            "title": "Confirmed Story Rewards",
+            "description": "Public wiki search data already ties Story to progression items such as Crystal Shard, Red Star(Pure), and Purple Star(Pure).",
             "tags": [
-              "Materials",
-              "Routing"
+              "Crystal Shard",
+              "Red Star(Pure)",
+              "Purple Star(Pure)"
+            ]
+          },
+          {
+            "title": "What Players Should Track",
+            "description": "The most important Story details are stage progress, reward drops, and which heroes or upgrade materials each section helps support.",
+            "tags": [
+              "Stage Progress",
+              "Reward Drops",
+              "Upgrade Materials"
             ]
           }
         ]
