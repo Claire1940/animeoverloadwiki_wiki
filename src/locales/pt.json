@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "WWE 2K26 Wiki - Elenco, Notas, Modos e Guias",
-      "description": "A WWE 2K26 Wiki cobre elenco, notas, códigos de vestiário, tipos de luta, MyGM, MyRISE, Universe e guias de The Island para PS5, Xbox, Steam e Switch 2.",
-      "keywords": "WWE 2K26, elenco WWE 2K26, notas WWE 2K26, códigos de vestiário WWE 2K26, MyGM WWE 2K26",
-      "ogTitle": "WWE 2K26 Wiki - Elenco, Notas, Modos e Guias",
-      "ogDescription": "A WWE 2K26 Wiki cobre elenco, notas, códigos de vestiário, tipos de luta, MyGM, MyRISE, Universe e guias de The Island para PS5, Xbox, Steam e Switch 2.",
-      "twitterTitle": "WWE 2K26 Wiki - Elenco, Notas, Modos e Guias",
-      "twitterDescription": "A WWE 2K26 Wiki cobre elenco, notas, códigos de vestiário, tipos de luta e guias de modos de jogo."
+      "title": "Anime Overload Wiki - Elenco, Notas, Modos e Guias",
+      "description": "A Anime Overload Wiki cobre elenco, notas, códigos de vestiário, tipos de luta, MyGM, MyRISE, Universe e guias de The Island para PS5, Xbox, Steam e Switch 2.",
+      "keywords": "Anime Overload, elenco Anime Overload, notas Anime Overload, códigos de vestiário Anime Overload, MyGM Anime Overload",
+      "ogTitle": "Anime Overload Wiki - Elenco, Notas, Modos e Guias",
+      "ogDescription": "A Anime Overload Wiki cobre elenco, notas, códigos de vestiário, tipos de luta, MyGM, MyRISE, Universe e guias de The Island para PS5, Xbox, Steam e Switch 2.",
+      "twitterTitle": "Anime Overload Wiki - Elenco, Notas, Modos e Guias",
+      "twitterDescription": "A Anime Overload Wiki cobre elenco, notas, códigos de vestiário, tipos de luta e guias de modos de jogo."
     }
   },
   "nav": {},
@@ -27,10 +27,10 @@
   },
   "hero": {
     "badge": "Simulador Oficial de Wrestling com mais de 400 Superstars",
-    "title": "WWE 2K26 Wiki",
-    "description": "Acompanhe o elenco completo, notas, tipos de luta, edições e guias de modo para WWE 2K26, do Showcase do CM Punk ao The Island, MyGM, MyRISE e Universe.",
+    "title": "Anime Overload Wiki",
+    "description": "Acompanhe o elenco completo, notas, tipos de luta, edições e guias de modo para Anime Overload, do Showcase do CM Punk ao The Island, MyGM, MyRISE e Universe.",
     "getFreeCodesCTA": "Obtenha Códigos Gratuitos",
-    "playOnRobloxCTA": "Compre WWE 2K26",
+    "playOnRobloxCTA": "Compre Anime Overload",
     "stats": {
       "stat1": {
         "value": "13-03-2026",
@@ -51,11 +51,11 @@
     }
   },
   "gameFeature": {
-    "title": "Gameplay de WWE 2K26",
+    "title": "Gameplay de Anime Overload",
     "description": "Experimente a simulação de wrestling mais autêntica com mais de 400 superstars e novos tipos de luta!"
   },
   "tools": {
-    "title": "WWE 2K26",
+    "title": "Anime Overload",
     "titleHighlight": "Navegação Rápida",
     "subtitle": "Pule para qualquer seção abaixo",
     "cards": [
@@ -143,7 +143,7 @@
   },
   "modules": {
     "releaseEditions": {
-      "title": "Data de Lançamento e Edições de WWE 2K26",
+      "title": "Data de Lançamento e Edições de Anime Overload",
       "subtitle": "Escolha a edição que combina com seu estilo de jogo",
       "quickFacts": [
         {
@@ -175,7 +175,7 @@
             "Switch 2"
           ],
           "includes": [
-            "Jogo base WWE 2K26"
+            "Jogo base Anime Overload"
           ]
         },
         {
@@ -189,7 +189,7 @@
             "Switch 2"
           ],
           "includes": [
-            "Jogo base WWE 2K26",
+            "Jogo base Anime Overload",
             "Pacote King of Kings Edition",
             "Ringside Pass Premium Temporada 1",
             "7 dias de Acesso Antecipado",
@@ -207,7 +207,7 @@
             "Switch 2"
           ],
           "includes": [
-            "Jogo base WWE 2K26",
+            "Jogo base Anime Overload",
             "Pacote King of Kings Edition",
             "Pacote Attitude Era Edition",
             "Ringside Pass Premium Temporadas 1-4",
@@ -227,7 +227,7 @@
             "Switch 2"
           ],
           "includes": [
-            "Jogo base WWE 2K26",
+            "Jogo base Anime Overload",
             "Pacote Monday Night War Edition",
             "Pacote King of Kings Edition",
             "Pacote Attitude Era Edition",
@@ -247,7 +247,7 @@
       ]
     },
     "roster": {
-      "title": "Elenco de WWE 2K26",
+      "title": "Elenco de Anime Overload",
       "subtitle": "Navegue por mais de 400 Superstars e Lendas jogáveis",
       "stats": [
         {
@@ -307,7 +307,7 @@
       ]
     },
     "ratings": {
-      "title": "Notas de WWE 2K26",
+      "title": "Notas de Anime Overload",
       "subtitle": "Ranking dos Superstars com as melhores notas",
       "menTopRated": [
         {
@@ -400,7 +400,7 @@
       ]
     },
     "controls": {
-      "title": "Controles de WWE 2K26",
+      "title": "Controles de Anime Overload",
       "subtitle": "Domine os controles principais para PS5, Xbox e PC",
       "platforms": [
         {
@@ -526,7 +526,7 @@
       ]
     },
     "matchTypes": {
-      "title": "Novos Tipos de Luta de WWE 2K26",
+      "title": "Novos Tipos de Luta de Anime Overload",
       "subtitle": "Experimente 4 novos tipos de luta e jogabilidade expandida",
       "quickFacts": [
         {
@@ -574,7 +574,7 @@
       ]
     },
     "showcase": {
-      "title": "Showcase de WWE 2K26",
+      "title": "Showcase de Anime Overload",
       "subtitle": "Reviva as maiores rivalidades de CM Punk",
       "quickFacts": [
         {
@@ -614,7 +614,7 @@
       }
     },
     "mygm": {
-      "title": "MyGM de WWE 2K26",
+      "title": "MyGM de Anime Overload",
       "subtitle": "Administre sua marca com agendamentos e estratégias mais profundas",
       "quickFacts": [
         {
@@ -672,7 +672,7 @@
       ]
     },
     "myrise": {
-      "title": "MyRISE de WWE 2K26",
+      "title": "MyRISE de Anime Overload",
       "subtitle": "Lute pelo seu caminho de volta em O Retorno (The Comeback)",
       "quickFacts": [
         {
@@ -739,7 +739,7 @@
       ]
     },
     "universeMode": {
-      "title": "Modo Universe de WWE 2K26",
+      "title": "Modo Universe de Anime Overload",
       "subtitle": "Construa seu calendário dos sonhos da WWE com controle mais profundo",
       "quickFacts": [
         {
@@ -783,7 +783,7 @@
       ]
     },
     "communityCreations": {
-      "title": "Criações da Comunidade de WWE 2K26",
+      "title": "Criações da Comunidade de Anime Overload",
       "subtitle": "Crie conteúdo personalizado maior e mais detalhado",
       "quickFacts": [
         {
@@ -831,7 +831,7 @@
       ]
     },
     "theIsland": {
-      "title": "The Island de WWE 2K26",
+      "title": "The Island de Anime Overload",
       "subtitle": "Escolha uma Ordem e lute pelo controle",
       "quickFacts": [
         {
@@ -894,7 +894,7 @@
       ]
     },
     "myfaction": {
-      "title": "MyFACTION de WWE 2K26",
+      "title": "MyFACTION de Anime Overload",
       "subtitle": "Monte escalações mais fortes com química e Troca Rápida",
       "quickFacts": [
         {
@@ -938,7 +938,7 @@
       ]
     },
     "lockerCodes": {
-      "title": "Códigos de Vestiário de WWE 2K26",
+      "title": "Códigos de Vestiário de Anime Overload",
       "subtitle": "Resgate códigos ativos para recompensas do MyFACTION",
       "quickFacts": [
         {
@@ -965,15 +965,15 @@
         }
       ],
       "howToRedeem": [
-        "Abra o WWE 2K26 pelo menu principal",
+        "Abra o Anime Overload pelo menu principal",
         "Selecione Códigos de Vestiário (Locker Codes)",
         "Insira o código exatamente como mostrado",
         "Resgate e abra seus pacotes no MyFACTION"
       ]
     },
     "pcRequirements": {
-      "title": "Requisitos para PC de WWE 2K26",
-      "subtitle": "Verifique se o seu PC pode rodar WWE 2K26",
+      "title": "Requisitos para PC de Anime Overload",
+      "subtitle": "Verifique se o seu PC pode rodar Anime Overload",
       "quickFacts": [
         {
           "label": "SO",
@@ -1012,7 +1012,7 @@
       }
     },
     "arenas": {
-      "title": "Arenas de WWE 2K26",
+      "title": "Arenas de Anime Overload",
       "subtitle": "Explore mais de 40 arenas entre locais modernos, clássicos e originais",
       "quickFacts": [
         {
@@ -1089,7 +1089,7 @@
     },
     "dlcUnlockables": {
       "title": "O Ferro-Velho (The Scrapyard)",
-      "subtitle": "DLC e Desbloqueáveis de WWE 2K26",
+      "subtitle": "DLC e Desbloqueáveis de Anime Overload",
       "quickFacts": [
         {
           "label": "Acompanhe cada caminho de recompensa pós-lançamento",
@@ -1212,43 +1212,43 @@
   "faq": {
     "title": "Perguntas",
     "titleHighlight": "Frequentes",
-    "subtitle": "Tudo o que voce precisa saber sobre WWE 2K26",
+    "subtitle": "Tudo o que voce precisa saber sobre Anime Overload",
     "questions": [
       {
-        "question": "Quando o WWE 2K26 sera lancado?",
-        "answer": "A edicao padrao do WWE 2K26 sera lancada em 13 de marco de 2026. As edicoes Deluxe tem acesso antecipado a partir de 6 de marco de 2026."
+        "question": "Quando o Anime Overload sera lancado?",
+        "answer": "A edicao padrao do Anime Overload sera lancada em 13 de marco de 2026. As edicoes Deluxe tem acesso antecipado a partir de 6 de marco de 2026."
       },
       {
-        "question": "Quantos superstars existem no WWE 2K26?",
-        "answer": "O WWE 2K26 conta com mais de 400 superstars jogaveis, incluindo lendas, elenco atual e personagens de DLC."
+        "question": "Quantos superstars existem no Anime Overload?",
+        "answer": "O Anime Overload conta com mais de 400 superstars jogaveis, incluindo lendas, elenco atual e personagens de DLC."
       },
       {
-        "question": "Em quais plataformas o WWE 2K26 esta disponivel?",
-        "answer": "O WWE 2K26 esta disponivel para PS5, Xbox Series X|S, Steam (PC) e Nintendo Switch 2."
+        "question": "Em quais plataformas o Anime Overload esta disponivel?",
+        "answer": "O Anime Overload esta disponivel para PS5, Xbox Series X|S, Steam (PC) e Nintendo Switch 2."
       },
       {
-        "question": "Como resgato os codigos de vestiario do WWE 2K26?",
+        "question": "Como resgato os codigos de vestiario do Anime Overload?",
         "answer": "Va ao modo MyFACTION, selecione o menu Locker Code e insira o codigo. Verifique nossa pagina de codigos para os codigos ativos mais recentes."
       },
       {
-        "question": "Quais sao os novos tipos de luta no WWE 2K26?",
-        "answer": "O WWE 2K26 introduz 4 novos tipos de luta, incluindo Inferno Match, Dumpster Match, Three Stages of Hell e I Quit Match."
+        "question": "Quais sao os novos tipos de luta no Anime Overload?",
+        "answer": "O Anime Overload introduz 4 novos tipos de luta, incluindo Inferno Match, Dumpster Match, Three Stages of Hell e I Quit Match."
       },
       {
-        "question": "Quais modos de jogo estao no WWE 2K26?",
-        "answer": "O WWE 2K26 inclui MyGM, MyRISE, Universe Mode, Showcase (CM Punk), The Island, MyFACTION e Creation Suite."
+        "question": "Quais modos de jogo estao no Anime Overload?",
+        "answer": "O Anime Overload inclui MyGM, MyRISE, Universe Mode, Showcase (CM Punk), The Island, MyFACTION e Creation Suite."
       }
     ]
   },
   "cta": {
     "title": "Pronto para Entrar no Ringue?",
-    "description": "Junte-se à comunidade WWE 2K26 no Discord para atualizações, revelações de elenco e discussões de gameplay!",
+    "description": "Junte-se à comunidade Anime Overload no Discord para atualizações, revelações de elenco e discussões de gameplay!",
     "joinCommunity": "Entrar no Discord",
-    "joinGame": "Comprar WWE 2K26"
+    "joinGame": "Comprar Anime Overload"
   },
   "footer": {
-    "title": "WWE 2K26 Wiki",
-    "description": "Seu centro de recursos completo para elenco, notas, códigos de vestiário, tipos de luta e guias de modos de jogo do WWE 2K26.",
+    "title": "Anime Overload Wiki",
+    "description": "Seu centro de recursos completo para elenco, notas, códigos de vestiário, tipos de luta e guias de modos de jogo do Anime Overload.",
     "resources": "Recursos",
     "community": "Comunidade",
     "legal": "Legal",
@@ -1261,7 +1261,7 @@
     "privacy": "Política de Privacidade",
     "terms": "Termos de Serviço",
     "copyrightNotice": "Direitos Autorais",
-    "copyright": "© 2026 WWE 2K26 Wiki. Não afiliado à 2K Sports, Visual Concepts ou WWE.",
+    "copyright": "© 2026 Anime Overload Wiki. Não afiliado à 2K Sports, Visual Concepts ou WWE.",
     "disclaimer": "Site de recursos não oficial criado por fãs."
   }
 }

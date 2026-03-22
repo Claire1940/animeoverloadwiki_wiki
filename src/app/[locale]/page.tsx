@@ -2,7 +2,7 @@
 
 import { Fragment, Suspense, lazy, useEffect } from 'react'
 import { ArrowRight, Check, Copy, Gift, Sparkles } from 'lucide-react'
-import { useMessages } from 'next-intl'
+import { useLocale, useMessages } from 'next-intl'
 import { VideoFeature } from '@/components/home/VideoFeature'
 import { AdBanner, NativeBannerAd, SidebarAd } from '@/components/ads'
 import { scrollToSection } from '@/lib/scrollToSection'
@@ -12,9 +12,9 @@ const HeroStats = lazy(() => import('@/components/home/HeroStats'))
 const FAQSection = lazy(() => import('@/components/home/FAQSection'))
 const CTASection = lazy(() => import('@/components/home/CTASection'))
 
-const LoadingPlaceholder = ({ height = 'h-64' }: { height?: string }) => (
+const LoadingPlaceholder = ({ height = 'h-64', label = 'Loading...' }: { height?: string; label?: string }) => (
   <div className={`${height} bg-white/5 border border-border rounded-xl animate-pulse flex items-center justify-center`}>
-    <div className="text-muted-foreground">Loading...</div>
+    <div className="text-muted-foreground">{label}</div>
   </div>
 )
 
@@ -84,8 +84,11 @@ const renderInterModuleAd = (index: number) => {
 }
 
 export default function HomePage() {
+  const locale = useLocale()
   const t = useMessages() as any
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://animeoverloadwiki.wiki'
+  const loadingLabel = t.common?.loading ?? 'Loading...'
+  const localePath = (path: string) => (locale === 'en' ? path : `/${locale}${path}`)
 
   const navCards = (t.tools?.cards ?? []) as NavCard[]
   const modules = (t.modules?.items ?? []) as ModuleItem[]
@@ -227,7 +230,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <Suspense fallback={<LoadingPlaceholder height="h-32" />}>
+          <Suspense fallback={<LoadingPlaceholder height="h-32" label={loadingLabel} />}>
             <HeroStats stats={Object.values(t.hero.stats)} />
           </Suspense>
         </div>
@@ -445,7 +448,7 @@ export default function HomePage() {
         </Fragment>
       ))}
 
-      <Suspense fallback={<LoadingPlaceholder />}>
+      <Suspense fallback={<LoadingPlaceholder label={loadingLabel} />}>
         <FAQSection
           title={t.faq.title}
           titleHighlight={t.faq.titleHighlight}
@@ -454,7 +457,7 @@ export default function HomePage() {
         />
       </Suspense>
 
-      <Suspense fallback={<LoadingPlaceholder />}>
+      <Suspense fallback={<LoadingPlaceholder label={loadingLabel} />}>
         <CTASection
           title={t.cta.title}
           description={t.cta.description}
@@ -530,10 +533,32 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold mb-4">{t.footer.legal}</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>{t.footer.about}</li>
-                <li>{t.footer.privacy}</li>
-                <li>{t.footer.terms}</li>
-                <li>{t.footer.copyrightNotice}</li>
+                <li>
+                  <a href={localePath('/about')} className="hover:text-[hsl(var(--nav-theme-light))] transition">
+                    {t.footer.about}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={localePath('/privacy-policy')}
+                    className="hover:text-[hsl(var(--nav-theme-light))] transition"
+                  >
+                    {t.footer.privacy}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href={localePath('/terms-of-service')}
+                    className="hover:text-[hsl(var(--nav-theme-light))] transition"
+                  >
+                    {t.footer.terms}
+                  </a>
+                </li>
+                <li>
+                  <a href={localePath('/copyright')} className="hover:text-[hsl(var(--nav-theme-light))] transition">
+                    {t.footer.copyrightNotice}
+                  </a>
+                </li>
               </ul>
             </div>
 
