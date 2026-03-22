@@ -134,25 +134,25 @@
       {
         "icon": "Hammer",
         "title": "Anime Overload Wiki Evolution Materials",
-        "description": "Pure Star colors, hero mapping, and evolve planning",
+        "description": "Pure Stars, evolve items, and smarter upgrade spend",
         "sectionId": "anime-overload-evolution-materials"
       },
       {
         "icon": "Calendar",
         "title": "Anime Overload Wiki Quest Guide",
-        "description": "Daily missions, weekly loops, and reward pacing",
+        "description": "Quest rewards, route planning, and progression pacing",
         "sectionId": "anime-overload-quest-guide"
       },
       {
         "icon": "Gamepad2",
         "title": "Anime Overload Wiki Mounts",
-        "description": "Mount unlock routes and collection value",
+        "description": "Mount gallery, unlock paths, and collection notes",
         "sectionId": "anime-overload-mounts"
       },
       {
         "icon": "Flame",
         "title": "Anime Overload Wiki Update Log",
-        "description": "Patch headlines, events, and balance changes",
+        "description": "Version timeline, active codes, and patch focus",
         "sectionId": "anime-overload-update-log"
       }
     ]
@@ -881,190 +881,239 @@
         "moduleNumber": 13,
         "sectionId": "anime-overload-evolution-materials",
         "title": "Anime Overload Wiki Evolution Materials",
-        "subtitle": "Materials matrix, hero mapping, and evolve priority routing",
-        "intro": "Evolution materials are a core progression layer in Anime Overload, including color-coded Pure Stars and special items tied to specific Heroes.",
+        "subtitle": "Pure Star matrix, evolve examples, and spend priority",
+        "intro": "Use this page to track Pure Stars and signature evolve items that gate your strongest upgrades.",
         "cards": [
           {
             "icon": "Hammer",
-            "title": "Core Material Families",
-            "description": "Public pages show recurring material families including Pure Stars, Cosmic Star, Lightning Drums, and other Mythic evolve items.",
+            "title": "Core Evolution Materials",
+            "description": "Public evolution materials shown on official pages include Red Star (Pure), Purple Star (Pure), Cosmic Star, and unit-specific evolve items.",
             "tags": [
               "Pure Stars",
-              "Cosmic Star"
+              "Signature Items"
             ]
           },
           {
-            "icon": "Users",
-            "title": "Known Hero to Material Links",
-            "description": "Public references connect specific Heroes to materials: Strongest Alien with Purple Star(Pure), Ener with Lightning Drums, Kid Psychic with Blue Star(Pure), and several multi-item mappings such as Madoro and Sosoke.",
+            "icon": "Package",
+            "title": "Verified Evolution Examples",
+            "description": "Madoro evolves into Madoro (Six Paths) with one signature six-orb item. Sosoke uses Red Star (Pure) x15 and Purple Star (Pure) x15. Devil Knight (Demonic) evolves into Devil Knight (Berserk) with Cosmic Star x3.",
             "tags": [
-              "Hero Mapping",
-              "Specific Materials"
+              "Madoro",
+              "Sosoke",
+              "Devil Knight"
             ]
           },
           {
             "icon": "Palette",
-            "title": "Pure Star Colors Seen Publicly",
-            "description": "Current public pools include Green, Blue, Purple, Red, Yellow, and Pink Star(Pure), making color matching central to long-term evolve planning.",
+            "title": "Best First Farming Priorities",
+            "description": "Treat Pure Stars as premium progression materials because they are shared across multiple hero upgrade paths and appeared in early public code rewards.",
             "tags": [
-              "Color Matching",
-              "Long-Term Plan"
+              "Premium Materials",
+              "Shared Demand"
             ]
           },
           {
             "icon": "ArrowRight",
-            "title": "Upgrade Planning Tips",
-            "description": "Track which Hero needs each star color or specialty drop, hold rare materials for core units, and spend inventory by roadmap priority.",
+            "title": "How to Spend Smarter",
+            "description": "Check the hero path first, confirm the exact star color and quantity, then commit evolve materials so your next major upgrade stays on schedule.",
             "tags": [
-              "Roadmap Spending",
-              "Core Units"
+              "Color Check",
+              "Upgrade Timing"
             ]
           }
         ]
       },
       {
+        "moduleNumber": 14,
         "sectionId": "anime-overload-quest-guide",
         "title": "Anime Overload Wiki Quest Guide",
-        "subtitle": "Quest priorities that fit daily play and weekly progression",
-        "intro": "Quests are a stable progression layer and should be routed alongside your story and raid goals.",
+        "subtitle": "Quest priorities, reward tags, and early-midgame route",
+        "intro": "Use quests as your progression compass when deciding whether to push Story, farm resources, or prepare for harder content.",
         "cards": [
           {
-            "title": "Quest Overview",
-            "description": "Use quests as a daily baseline for guaranteed progress and resource stability.",
+            "icon": "ClipboardCheck",
+            "title": "What This Guide Covers",
+            "description": "The quest loop fits between Story, Raids, Heroes, Traits, and Evolution Materials, so this page works best as a practical progression guide.",
             "tags": [
-              "Daily Loop",
-              "Stable Gains"
+              "Progression Compass",
+              "Practical Guide"
             ]
           },
           {
-            "title": "Quest Types",
-            "description": "Rotate between fast-complete objectives and high-value milestones based on session length.",
+            "icon": "Gift",
+            "title": "Best Resources to Chase",
+            "description": "The highest-value quest targets are Gold, Crystal Shards, Trait Rerolls, and Stars because they directly support summoning, trait upgrades, and long-term hero growth.",
             "tags": [
-              "Fast Tasks",
-              "Milestones"
+              "Gold",
+              "Shards",
+              "Rerolls",
+              "Stars"
             ]
           },
           {
-            "title": "Best Quests to Prioritize",
-            "description": "Prioritize tasks that overlap with your current story push, raid prep, or material farming target.",
+            "icon": "Map",
+            "title": "Early to Midgame Route",
+            "description": "Push quest-linked Story progress first, stabilize your core team, then fold in raid goals and trait upgrades as clears become more consistent.",
             "tags": [
-              "Overlap Value",
-              "Efficiency"
+              "Story First",
+              "Raid Integration"
             ]
           },
           {
-            "title": "Quest Reward Routing",
-            "description": "Convert rewards directly into the next needed upgrade to keep momentum high.",
+            "icon": "Check",
+            "title": "Best Way to Use This Page",
+            "description": "Follow quests by reward type first and game mode second, so each clear improves currency, traits, stars, or team progression on purpose.",
             "tags": [
-              "Upgrade Flow",
-              "Momentum"
+              "Reward-First",
+              "Mode-Second"
             ]
           }
         ],
         "steps": [
-          "Start with short daily quests to secure baseline resources.",
-          "Chain longer quests with story or raid sessions.",
-          "Spend rewards on your current roster bottleneck.",
-          "Reset priorities after each update event."
+          "Pick the reward type you need most before selecting the next quest.",
+          "Route story-linked quests first to secure stable map progression.",
+          "Merge raid and trait quests once your core clears are consistent.",
+          "Re-evaluate quest priority after each update or code drop."
         ]
       },
       {
+        "moduleNumber": 15,
         "sectionId": "anime-overload-mounts",
         "title": "Anime Overload Wiki Mounts",
-        "subtitle": "Mount unlock routes, collection value, and showcase planning",
-        "intro": "Mounts improve account depth and collection identity while adding another consistent long-tail target.",
-        "kpis": [
-          {
-            "label": "Mount Focus",
-            "value": "Unlock + Showcase"
-          },
-          {
-            "label": "Best Session Type",
-            "value": "Route-Based Farming"
-          },
-          {
-            "label": "Progress Tracking",
-            "value": "Collection Tags"
-          },
-          {
-            "label": "Value Blend",
-            "value": "Cosmetic + Utility"
-          }
-        ],
+        "subtitle": "Gallery-first mount tracking, unlock tags, and player priorities",
+        "intro": "Mounts already have public showcase coverage, making them a strong visual module for collectors and players who want faster hub movement.",
         "cards": [
           {
-            "title": "All Mounts Checklist",
-            "description": "Track unlocked mounts by source and keep one route per session to avoid scattered progress.",
+            "icon": "Gamepad2",
+            "title": "Mount System Overview",
+            "description": "Mounts add a collection layer outside heroes and traits while giving players a cleaner way to move around hubs and social spaces.",
             "tags": [
-              "Checklist",
-              "Source Tracking"
+              "Collection Layer",
+              "Hub Movement"
             ]
           },
           {
-            "title": "How to Unlock Faster",
-            "description": "Combine mount progress with your existing story, raid, or event objectives.",
+            "icon": "Eye",
+            "title": "Publicly Shown Coverage",
+            "description": "The mount system appeared in pre-release lobby coverage and a dedicated all-mount showcase video, giving this module stable public-facing references.",
             "tags": [
-              "Route Merge",
-              "Efficiency"
+              "Pre-Release",
+              "Showcase Video"
             ]
           },
           {
-            "title": "Cosmetic vs Practical Value",
-            "description": "Prioritize unlocks that align with your broader progression plan, then complete showcase targets.",
+            "icon": "Home",
+            "title": "What Players Care About Most",
+            "description": "Players usually want three fast answers: what the mount looks like, how to unlock it, and whether it is cosmetic or part of everyday movement.",
             "tags": [
-              "Priority",
-              "Collection"
+              "Look",
+              "Unlock",
+              "Use Case"
+            ]
+          },
+          {
+            "icon": "Layers",
+            "title": "Best Browsing Experience",
+            "description": "A gallery-first layout works best: each mount card should show preview context, unlock path, and a short note on why players chase it.",
+            "tags": [
+              "Gallery-First",
+              "Unlock Tags"
             ]
           }
         ]
       },
       {
+        "moduleNumber": 16,
         "sectionId": "anime-overload-update-log",
         "title": "Anime Overload Wiki Update Log",
-        "subtitle": "Latest update headlines, events, and patch-driven action items",
-        "intro": "Use update notes as a planning layer for summons, rerolls, and farming route changes.",
+        "subtitle": "Version notes, active codes, and patch focus in one timeline",
+        "intro": "Keep all version notes, code drops, and headline patch changes in one place so returning players can catch up in seconds.",
         "timeline": [
           {
-            "date": "Launch Window",
-            "title": "Early Access Opened",
-            "detail": "Public launch brought core progression loops, code rewards, and first-wave meta formation."
+            "date": "Version 1.0",
+            "title": "Major Public Milestone",
+            "detail": "The official wiki homepage highlights Version 1.0 as a major public milestone for Anime Overload."
           },
           {
-            "date": "Patch Cycle",
-            "title": "Code Refresh Waves",
-            "detail": "Major code drops expanded reroll and currency options for faster roster upgrades."
+            "date": "Current Focus",
+            "title": "Units, Events, and QoL",
+            "detail": "Public update coverage is centered on new units, event content, and quality-of-life changes."
+          }
+        ],
+        "codes": [
+          {
+            "code": "HappyEarlyAccess",
+            "status": "Active code used for trait and star progression",
+            "rewards": [
+              "25 Trait Rerolls",
+              "10 of every Star"
+            ],
+            "notes": "Claim early to stabilize your first progression route."
           },
           {
-            "date": "Meta Update",
-            "title": "Carry Priorities Shifted",
-            "detail": "Tier choices moved toward premium carries with reliable AoE and boss consistency."
+            "code": "Sorry4Delay",
+            "status": "High-value currency and reroll bundle",
+            "rewards": [
+              "100 Trait Rerolls",
+              "5,000 Crystals"
+            ],
+            "notes": "Strong option when preparing for summon and trait reroll sessions."
           },
           {
-            "date": "Raid Focus",
-            "title": "More Raid-Centric Routing",
-            "detail": "Players increasingly route progress through raids to accelerate endgame materials."
+            "code": "GAMEWATCH21ISSIGMA",
+            "status": "Quick upgrade support pack",
+            "rewards": [
+              "5,000 Gold",
+              "5 Reroll Trait Tickets"
+            ],
+            "notes": "Useful for short sessions focused on roster tuning."
           },
           {
-            "date": "Ongoing",
-            "title": "Discord Announcements",
-            "detail": "Official Discord remains the fastest source for code drops and event timing."
+            "code": "RELEASE",
+            "status": "Starter shard support",
+            "rewards": [
+              "100 Crystal Shards"
+            ],
+            "notes": "Use with other active rewards to accelerate early summons."
           }
         ],
         "cards": [
           {
-            "title": "How to Use This Log",
-            "description": "After each patch, review carry ranking changes, reroll value shifts, and route updates before spending.",
+            "icon": "Calendar",
+            "title": "What To Scan First",
+            "description": "Read the newest patch headline first, claim active codes second, then check unit, event, and QoL badges for priority shifts.",
             "tags": [
-              "Patch Review",
-              "Spend Planning"
+              "Patch Headline",
+              "Code Check",
+              "Badge Scan"
             ]
           },
           {
-            "title": "Weekly Review Habit",
-            "description": "A weekly check of updates and code channels keeps your progression aligned with current opportunities.",
+            "icon": "Flame",
+            "title": "Current Update Focus",
+            "description": "Track whether updates push unit power, event farming, or quality-of-life routing so you can spend resources with purpose.",
             "tags": [
-              "Weekly",
-              "Consistency"
+              "Units",
+              "Events",
+              "QoL"
+            ]
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "Weekly Catch-Up Habit",
+            "description": "A short weekly pass through this log keeps returning players aligned with active opportunities and progression routes.",
+            "tags": [
+              "Weekly Review",
+              "Returning Players"
+            ]
+          },
+          {
+            "icon": "Monitor",
+            "title": "Version Snapshot Use",
+            "description": "Use version snapshots as context before rerolls, summon sessions, and major evolve material spending.",
+            "tags": [
+              "Snapshot",
+              "Spend Timing"
             ]
           }
         ]
