@@ -26,12 +26,13 @@ interface NavCard {
 }
 
 interface ModuleItem {
+  moduleNumber?: number
   sectionId: string
   title: string
   subtitle: string
   intro: string
   kpis?: Array<{ label: string; value: string }>
-  cards?: Array<{ title: string; description: string; tags?: string[] }>
+  cards?: Array<{ icon?: string; title: string; description: string; tags?: string[] }>
   codes?: Array<{ code: string; status: string; rewards: string[]; notes?: string }>
   steps?: string[]
   columns?: Array<{ title: string; items: string[] }>
@@ -295,7 +296,7 @@ export default function HomePage() {
               <div className="text-center mb-12">
                 <div className="inline-flex items-center px-3 py-1 rounded-full mb-4 border border-[hsl(var(--gold)/0.45)] bg-[hsl(var(--nav-theme)/0.08)]">
                   <span className="text-xs uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
-                    Module {index + 1}
+                    Module {module.moduleNumber ?? index + 1}
                   </span>
                 </div>
                 <h2 className="text-4xl md:text-5xl font-bebas mb-4 relative inline-block">
@@ -399,6 +400,11 @@ export default function HomePage() {
                       key={`${module.sectionId}-card-${i}`}
                       className="p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300"
                     >
+                      {card.icon && (
+                        <div className="w-11 h-11 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--gold)/0.35)] flex items-center justify-center">
+                          <DynamicIcon name={card.icon} className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                        </div>
+                      )}
                       <h3 className="text-lg font-bebas mb-3 text-[hsl(var(--nav-theme))]">{card.title}</h3>
                       <p className="text-sm text-muted-foreground leading-relaxed">{card.description}</p>
                       {card.tags && card.tags.length > 0 && (

@@ -110,31 +110,31 @@
       {
         "icon": "Shield",
         "title": "Anime Overload Wiki Raids",
-        "description": "Raid setup, boss mechanics, and reward planning",
+        "description": "Raid mechanics, Double Dungeon control, and clear planning",
         "sectionId": "anime-overload-raids"
       },
       {
         "icon": "Settings",
-        "title": "Anime Overload Wiki Summon & Reroll",
-        "description": "Banner timing and trait-ticket spending rules",
+        "title": "Anime Overload Wiki Summon and Reroll Guide",
+        "description": "Summon depth, Ascension value, and trait reroll priorities",
         "sectionId": "anime-overload-summon-reroll"
       },
       {
         "icon": "Star",
         "title": "Anime Overload Wiki Secret Units",
-        "description": "High-value chase units and farming loops",
+        "description": "Susono and Strongest Alien chase routes and timing",
         "sectionId": "anime-overload-secret-units"
       },
       {
         "icon": "Layers",
         "title": "Anime Overload Wiki Collections",
-        "description": "Collection tracking and relic completion flow",
+        "description": "Item categories, relic examples, and tracking value",
         "sectionId": "anime-overload-collections"
       },
       {
         "icon": "Hammer",
         "title": "Anime Overload Wiki Evolution Materials",
-        "description": "Pure stars, shard routes, and evolve priorities",
+        "description": "Pure Star colors, hero mapping, and evolve planning",
         "sectionId": "anime-overload-evolution-materials"
       },
       {
@@ -698,221 +698,226 @@
         ]
       },
       {
+        "moduleNumber": 9,
         "sectionId": "anime-overload-raids",
         "title": "Anime Overload Wiki Raids",
-        "subtitle": "Raid entry flow, boss mechanics, and high-value reward routing",
-        "intro": "Raids push your roster and mechanics harder than story mode and are central to mid-to-endgame growth.",
-        "columns": [
-          {
-            "title": "Raid Team Roles",
-            "items": [
-              "Main boss killer for burst windows.",
-              "Reliable AoE for wave pressure control.",
-              "Support/control slot for stability.",
-              "Optional economy slot when map pace allows it."
-            ]
-          },
-          {
-            "title": "Boss Survival Rules",
-            "items": [
-              "Respect stun and sleep patterns with movement timing.",
-              "Place key units where they survive hazard paths.",
-              "Track cooldown windows before committing major upgrades.",
-              "Rebuild quickly after boss phase shifts."
-            ]
-          }
-        ],
+        "subtitle": "Raid cards, mechanics checklist, and boss route preparation",
+        "intro": "Raids are the higher-pressure endgame layer in Anime Overload, built around stronger enemies, manual reactions, and better reward potential.",
         "cards": [
           {
-            "title": "Reward Focus",
-            "description": "Raids are a major source of progression materials and should be chained with your evolve roadmap.",
+            "icon": "Shield",
+            "title": "What Raids Are",
+            "description": "Raids are positioned above standard progression content and reward players who can handle longer runs and denser mechanics.",
             "tags": [
-              "Materials",
-              "Progression"
+              "Endgame Mode",
+              "Longer Runs"
             ]
           },
           {
-            "title": "Best Entry Timing",
-            "description": "Enter raids after your core trio is upgraded enough to avoid resource-draining wipe loops.",
+            "icon": "AlertTriangle",
+            "title": "Boss Mechanics",
+            "description": "High-level bosses can pressure teams with sleep and stun-style attacks, so timing decisions directly control whether your carry lineup stays active.",
             "tags": [
-              "Midgame",
-              "Efficiency"
+              "Sleep Pressure",
+              "Stun Windows"
+            ]
+          },
+          {
+            "icon": "Building",
+            "title": "Double Dungeon",
+            "description": "Double Dungeon is a high-intensity raid-style activity where moving statues can wake up, walk toward placed Heroes, and remove them on contact.",
+            "tags": [
+              "Statue Control",
+              "Field Safety"
+            ]
+          },
+          {
+            "icon": "Clock",
+            "title": "How to Prepare",
+            "description": "Bring stable wave clear, keep burst damage ready for bosses and statues, and practice Crouch timing before high-pressure checkpoints.",
+            "tags": [
+              "Wave Clear",
+              "Burst Timing"
             ]
           }
         ]
       },
       {
+        "moduleNumber": 10,
         "sectionId": "anime-overload-summon-reroll",
-        "title": "Anime Overload Wiki Summon & Reroll Guide",
-        "subtitle": "Banner timing, reroll budgeting, and smart spend decisions",
-        "intro": "Summon and reroll choices decide whether your progression accelerates or stalls. Discipline here has the highest long-term value.",
-        "steps": [
-          "Use fresh code rewards before opening a new banner cycle.",
-          "Set a target carry and stop once that role is secured.",
-          "Save reroll tickets for units you will keep across multiple progression tiers.",
-          "Avoid rerolling temporary fillers unless they block your immediate clear route.",
-          "Re-evaluate spending after each update drop and event rotation."
-        ],
+        "title": "Anime Overload Wiki Summon and Reroll Guide",
+        "subtitle": "Summon flow, Ascension value, and trait reroll priorities",
+        "intro": "Summoning builds your roster, while rerolls and duplicate management decide how far your strongest Heroes can scale.",
         "cards": [
           {
-            "title": "When to Summon",
-            "description": "Summon when your roster lacks a clear carry or AoE anchor, not just when currency is available.",
+            "icon": "TrendingUp",
+            "title": "How Summoning Works",
+            "description": "Anime Overload summoning spans multiple rarities, from starter options to chase Secret-tier units that shape current team planning.",
             "tags": [
-              "Role Gaps",
-              "Banner Timing"
+              "Roster Depth",
+              "Rarity Ladder"
             ]
           },
           {
-            "title": "When to Save",
-            "description": "If your current lineup clears target content, hold currency for stronger banners or event windows.",
+            "icon": "Layers",
+            "title": "Ascension and Dupes",
+            "description": "Duplicate copies are upgrade fuel. Ascension or Prestige-style fusion can convert dupes into permanent stat growth on core Heroes.",
             "tags": [
-              "Currency Discipline",
-              "Future Value"
+              "Duplicate Value",
+              "Permanent Stats"
+            ]
+          },
+          {
+            "icon": "Settings",
+            "title": "Trait and Stat Rerolls",
+            "description": "Trait Rerolls and Stat Rerolls are key progression resources. Overloaded is a 0.002% trait with +250% Damage, +50 Range, -5% Placement Cost, and -15% SPA, limited to one Overloaded unit on the field.",
+            "tags": [
+              "Overloaded",
+              "One Unit Limit"
+            ]
+          },
+          {
+            "icon": "Monitor",
+            "title": "Best Spending Priorities",
+            "description": "Use Crystal Shards to improve roster consistency, reserve Trait Rerolls for long-term units, and protect high-value materials when Pure Stars and evolve costs become active.",
+            "tags": [
+              "Crystal Shards",
+              "Pure Stars"
             ]
           }
         ]
       },
       {
+        "moduleNumber": 11,
         "sectionId": "anime-overload-secret-units",
         "title": "Anime Overload Wiki Secret Units",
-        "subtitle": "High-value chase units, unlock pressure, and farming routes",
-        "intro": "Secret units are long-term power spikes and should be pursued with planned routes instead of random farming.",
-        "kpis": [
-          {
-            "label": "Target Type",
-            "value": "Late-Game Carries"
-          },
-          {
-            "label": "Best Path",
-            "value": "Route + Repeat"
-          },
-          {
-            "label": "Farm Style",
-            "value": "Consistent Sessions"
-          },
-          {
-            "label": "Upgrade Priority",
-            "value": "Top Carry First"
-          }
-        ],
-        "columns": [
-          {
-            "title": "Secret Unit Farming Focus",
-            "items": [
-              "Farm content that directly feeds your secret target requirements.",
-              "Use stable auto-capable routes for repeated clears.",
-              "Pair secret farming with material goals to avoid split sessions.",
-              "Track drop progress across update cycles."
-            ]
-          },
-          {
-            "title": "Roster Integration",
-            "items": [
-              "Replace temporary carries first when a secret unit is secured.",
-              "Transfer high-value traits to the new long-term anchor.",
-              "Rebuild team around new range and damage profile.",
-              "Adjust raid and story routes after each major upgrade."
-            ]
-          }
-        ],
+        "subtitle": "Rare unit cards, obtain paths, and secret chase priorities",
+        "intro": "Secret units are the chase layer of Anime Overload and sit at the center of early farming, banner timing, and prestige planning.",
         "cards": [
           {
-            "title": "Susono Secret Track",
-            "description": "A common high-interest secret path for players aiming at endgame clears.",
+            "icon": "Star",
+            "title": "Publicly Referenced Secret Units",
+            "description": "Susono and Strongest Alien are the most visible secret names in public indexing and early community coverage.",
             "tags": [
-              "Endgame",
-              "Boss Damage"
+              "Susono",
+              "Strongest Alien"
             ]
           },
           {
-            "title": "Banner Secret Rotation",
-            "description": "Monitor update windows for better chase timing and lower opportunity cost.",
+            "icon": "Trophy",
+            "title": "Why Secrets Matter",
+            "description": "Secret units are long-term chase targets rather than routine pulls, so they naturally become headline goals for farms and showcases.",
             "tags": [
-              "Rotation",
-              "Timing"
+              "Chase Targets",
+              "Prestige Value"
+            ]
+          },
+          {
+            "icon": "Eye",
+            "title": "How Players Chase Them",
+            "description": "Current public coverage highlights two routes: direct farming for specific secrets and banner-based hunting during summon rotations.",
+            "tags": [
+              "Farm Route",
+              "Banner Route"
+            ]
+          },
+          {
+            "icon": "Globe",
+            "title": "When to Start Farming",
+            "description": "Build a stable core team first, then commit to secret farming once raid clears, progression flow, and reroll economy support longer sessions.",
+            "tags": [
+              "Core Team First",
+              "Long Sessions"
             ]
           }
         ]
       },
       {
+        "moduleNumber": 12,
         "sectionId": "anime-overload-collections",
         "title": "Anime Overload Wiki Collections",
-        "subtitle": "Collection categories, relic progress, and completion strategy",
-        "intro": "Collections add long-tail progression value and provide a clean structure for tracking long sessions.",
-        "steps": [
-          "Group targets by the content route you already farm.",
-          "Prioritize collection pieces tied to your current progression bottleneck.",
-          "Track missing relics and rotate maps based on highest completion gain.",
-          "Review collection status after every major patch cycle."
-        ],
+        "subtitle": "Collection tracker, item categories, and progress planning",
+        "intro": "Collections work as a practical item index so players can track materials, relics, and upgrade pieces across progression routes.",
         "cards": [
           {
+            "icon": "Map",
             "title": "Collection Categories",
-            "description": "Break collections into raid-linked, story-linked, and event-linked sets for better farming control.",
+            "description": "The official collection index groups items into EXP Items, Crafting Item, Consumable, Evolve Items, and Relics.",
             "tags": [
-              "Raid",
-              "Story",
-              "Event"
+              "EXP Items",
+              "Relics"
             ]
           },
           {
-            "title": "Relic Progress Tracking",
-            "description": "Use a simple checklist format to avoid duplicate runs and keep progress visible.",
+            "icon": "Package",
+            "title": "Item Examples",
+            "description": "Publicly indexed entries include 5 Leaf Clover, 5 Clover Grimoire, Lightning Drums, Blue Star(Pure), and Pink Star(Pure).",
             "tags": [
-              "Checklist",
-              "Efficiency"
+              "Lightning Drums",
+              "Blue Star(Pure)"
             ]
           },
           {
-            "title": "Completion Value",
-            "description": "Collection routing helps convert general grinding into measurable milestones.",
+            "icon": "BookOpen",
+            "title": "Relics and Progress",
+            "description": "Relics such as 5 Leaf Clover are already tied to story-linked public pages, so collection tracking directly supports progression planning.",
             "tags": [
-              "Milestones",
-              "Long-Term"
+              "Relic Links",
+              "Progress Goals"
+            ]
+          },
+          {
+            "icon": "ClipboardCheck",
+            "title": "Why This Page Matters",
+            "description": "A strong Collections page helps players quickly identify what each item is, its category, and whether to save it for evolution or later farming.",
+            "tags": [
+              "Category Clarity",
+              "Save Decisions"
             ]
           }
         ]
       },
       {
+        "moduleNumber": 13,
         "sectionId": "anime-overload-evolution-materials",
         "title": "Anime Overload Wiki Evolution Materials",
-        "subtitle": "Map your Pure Stars and shard spending to your best units",
-        "intro": "Material efficiency drives endgame growth. Route every farm session toward your next evolve requirement.",
-        "columns": [
-          {
-            "title": "Core Material Targets",
-            "items": [
-              "Crystal Shards for progression and summon-related systems.",
-              "Pure Stars for deeper hero evolution paths.",
-              "Mythic evolve items for top-end upgrades.",
-              "Raid-linked drops for bottleneck unlocks."
-            ]
-          },
-          {
-            "title": "Unit-to-Material Mapping",
-            "items": [
-              "Prioritize carries with immediate clear impact.",
-              "Assign each farming session to one evolve milestone.",
-              "Track material deficits before spending rerolls.",
-              "Only branch into side units after core upgrades finish."
-            ]
-          }
-        ],
+        "subtitle": "Materials matrix, hero mapping, and evolve priority routing",
+        "intro": "Evolution materials are a core progression layer in Anime Overload, including color-coded Pure Stars and special items tied to specific Heroes.",
         "cards": [
           {
-            "title": "Material Matrix Setup",
-            "description": "Maintain a simple matrix of unit, required materials, current stock, and next route.",
+            "icon": "Hammer",
+            "title": "Core Material Families",
+            "description": "Public pages show recurring material families including Pure Stars, Cosmic Star, Lightning Drums, and other Mythic evolve items.",
             "tags": [
-              "Matrix",
-              "Planning"
+              "Pure Stars",
+              "Cosmic Star"
             ]
           },
           {
-            "title": "Upgrade Order",
-            "description": "Upgrade your most-used carry first, then wave-clear support, then situational options.",
+            "icon": "Users",
+            "title": "Known Hero to Material Links",
+            "description": "Public references connect specific Heroes to materials: Strongest Alien with Purple Star(Pure), Ener with Lightning Drums, Kid Psychic with Blue Star(Pure), and several multi-item mappings such as Madoro and Sosoke.",
             "tags": [
-              "Carry First",
-              "Wave Control"
+              "Hero Mapping",
+              "Specific Materials"
+            ]
+          },
+          {
+            "icon": "Palette",
+            "title": "Pure Star Colors Seen Publicly",
+            "description": "Current public pools include Green, Blue, Purple, Red, Yellow, and Pink Star(Pure), making color matching central to long-term evolve planning.",
+            "tags": [
+              "Color Matching",
+              "Long-Term Plan"
+            ]
+          },
+          {
+            "icon": "ArrowRight",
+            "title": "Upgrade Planning Tips",
+            "description": "Track which Hero needs each star color or specialty drop, hold rare materials for core units, and spend inventory by roadmap priority.",
+            "tags": [
+              "Roadmap Spending",
+              "Core Units"
             ]
           }
         ]
