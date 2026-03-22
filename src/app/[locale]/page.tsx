@@ -257,8 +257,8 @@ export default function HomePage() {
         <div className="scroll-reveal container mx-auto">
           <div className="relative rounded-2xl overflow-hidden">
             <VideoFeature
-              videoId="oYd6rXOrz7E"
-              title="The Show Is On! | WWE 2K26 Official Announce Trailer"
+              videoId="_aAIzPTe3xE"
+              title="Anime Overload Teaser"
               posterImage="/images/hero.webp"
             />
           </div>

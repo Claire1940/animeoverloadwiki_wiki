@@ -1,12 +1,22 @@
 {
-  "name": "WWE 2K26 Wiki - Roster, Ratings, Modes & Guides",
-  "short_name": "WWE 2K26 Wiki",
-  "description": "WWE 2K26 Wiki covers roster, ratings, locker codes, match types, MyGM, MyRISE, Universe, and The Island guides for PS5, Xbox, Steam, and Switch 2.",
+  "id": "/",
+  "name": "Anime Overload Wiki - Codes, Units & Tier List",
+  "short_name": "Anime Overload Wiki",
+  "description": "Anime Overload Wiki for codes, units, traits, raids, story, and beginner guides. Track active players, total visits, and key Roblox game info in one place.",
+  "lang": "en-US",
+  "dir": "ltr",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#d32f2f",
-  "background_color": "#0a0a0a",
+  "theme_color": "#c0203a",
+  "background_color": "#090b12",
+  "categories": [
+    "games",
+    "entertainment",
+    "utilities"
+  ],
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
