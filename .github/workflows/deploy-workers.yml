@@ -28,7 +28,9 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        # 旧模板仓库 package-lock.json 常与 package.json 漂移（如缺 @swc/helpers），
+        # 严格的 npm ci 会失败。改用 npm install --legacy-peer-deps，与各站 Dockerfile 一致（零漂移）。
+        run: npm install --legacy-peer-deps
 
       - name: Install OpenNext + Wrangler (no package.json change)
         run: npm i -D @opennextjs/cloudflare@^1.19.11 wrangler@^4.103.0 --no-save
