@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "animeoverloadwiki-wiki",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-03-10",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "routes": [
+    { "pattern": "www.animeoverloadwiki.wiki/*", "zone_name": "animeoverloadwiki.wiki" }
+  ]
+}
