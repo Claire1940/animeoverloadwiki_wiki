@@ -3,30 +3,44 @@
   "api_base_url": "https://api.apifast.tech/v1/chat/completions",
   "model": "gemini-2.5-flash",
   "group": "default",
-
   "temperature": 0.1,
   "max_tokens": 32768,
-  "timeout": 1800,
-  "retry_attempts": 8,
+  "timeout": 300,
+  "retry_attempts": 3,
   "retry_delay": 10,
-
-  "languages": ["pt", "es", "ja", "ko", "fr", "de", "th"],
+  "languages": [
+    "pt",
+    "es",
+    "ja",
+    "ko",
+    "fr",
+    "de",
+    "th"
+  ],
   "default_language": "en",
   "output_dir": "src/locales/",
-
   "use_value_extraction": false,
-
   "protected_terms": {
-    "game_names": ["Anime Overload", "Anime Overload Wiki"],
+    "game_names": [
+      "Anime Overload",
+      "Anime Overload Wiki"
+    ],
     "character_names": [
-      "Gojo", "Sukuna"
+      "Gojo",
+      "Sukuna"
     ],
     "technical_terms": [
-      "Anime Overload", "Anime Overload Wiki", "Roblox", "Codes", "Units",
-      "Traits", "Raids", "Battle Pass", "Beginner"
+      "Anime Overload",
+      "Anime Overload Wiki",
+      "Roblox",
+      "Codes",
+      "Units",
+      "Traits",
+      "Raids",
+      "Battle Pass",
+      "Beginner"
     ]
   },
-
   "game_names": {
     "en": "Anime Overload Wiki",
     "pt": "Wiki do Anime Overload",
@@ -37,7 +51,6 @@
     "de": "Anime Overload Wiki",
     "th": "วิกิ Anime Overload"
   },
-
   "lang_names": {
     "pt": "Portuguese (Brazil)",
     "es": "Spanish",

@@ -1,0 +1,33 @@
+{
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que os jogadores perguntam sobre a progressão e os sistemas da Wiki do Anime Overload",
+    "questions": [
+      {
+        "question": "Como a Wiki do Anime Overload ajuda novos jogadores a começarem mais rápido?",
+        "answer": "A Wiki do Anime Overload organiza códigos, rotas para iniciantes e prioridades de montagem de equipe para que novos jogadores possam concluir as fases iniciais com menos tentativa e erro."
+      },
+      {
+        "question": "Onde a Wiki do Anime Overload acompanha os códigos mais recentes e o fluxo de resgate?",
+        "answer": "A Wiki do Anime Overload mantém listas de códigos ativos, etapas de resgate e prioridades práticas de recompensas no módulo de códigos para uma execução rápida."
+      },
+      {
+        "question": "O que a Wiki do Anime Overload inclui para o planejamento da tier list?",
+        "answer": "A Wiki do Anime Overload abrange os melhores carries, escolhas de valor, opções de suporte e quando substituir unidades temporárias à medida que seu elenco melhora."
+      },
+      {
+        "question": "A Wiki do Anime Overload pode guiar os rerolls de traits e os gastos com summons?",
+        "answer": "A Wiki do Anime Overload fornece prioridades de traits baseadas em funções e regras de orçamento de reroll para manter os recursos focados em unidades de longo prazo."
+      },
+      {
+        "question": "A Wiki do Anime Overload explica raids, missões e rotas de história em conjunto?",
+        "answer": "A Wiki do Anime Overload vincula funções de raid, prioridades de missões e rotas de farm de história em um único caminho de progressão para que cada sessão tenha um objetivo claro."
+      },
+      {
+        "question": "Com que frequência os jogadores devem revisar as entradas do log de atualização da Wiki do Anime Overload?",
+        "answer": "As notas de atualização da Wiki do Anime Overload são mais úteis quando verificadas semanalmente e após cada patch importante ou lançamento de códigos."
+      }
+    ]
+  }
+}
